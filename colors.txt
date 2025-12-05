@@ -1,0 +1,5 @@
+Header blur #070d18d9
+font color #eef8f3
+footer #050b17
+icon color #4dba81
+border radius 15px

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    cursor: default;
+}
+html{
+    font-family: sans-serif, "SFNS Display";
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.h-back{
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+.h-back:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+    z-index: -1;
+    background-size: contain;
+    background: #070d18d9;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    position: relative;
+}
+
+.container{
+    padding: 0 calc((100% - 1490px ) / 2)
+}
+.h-log{
+    width: 125px;
+    padding: 20px 0;
+}
+.h-logo-i{
+    width: 100%;
+    height: 100%;
+}
